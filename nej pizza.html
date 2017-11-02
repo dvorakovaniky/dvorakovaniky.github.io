@@ -1,0 +1,142 @@
+<!DOCTYPE html public "-//w3c//dtd html 4.01 transitional//en">
+
+<html>
+ 
+   
+  <head>
+  
+  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
+  
+
+   
+  <link rel="stylesheet" type="text/css" href="CSS.css">
+  <link rel="icon" type="image/png" href="FOTO/favicon.png" sizes="16x16"> 
+  
+  <title>Nej ...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <style>
+  
+   
+    </style>
+                                                               
+  </head>
+
+ 
+  <body>   
+   
+ <div id="page"> 
+ 
+  
+ <div id="záhlaví"> 
+ <div class="parallax40">     
+  <ul>                 
+  <li1><a class="active4" href="index.html">Pizzapedie</a></li1>
+  <li><a href="Historie.html">HISTORIE</a></li>
+  <li><a href="Recepty.html">RECEPTY</a></li>
+  <li><a href="Nej.html">NEJ ...</a></li>
+</ul> 
+</div>
+
+  </div> 
+ 
+ 
+  <div id="sloup3">
+ <font class="N2">NEJVĚTŠÍ PIZZA NA SVĚTĚ </font> 
+  </div>
+ 
+  <div id="sloup2">
+   <img src="FOTO/gif4.gif" style="width:20%; border: 0px; margin:0 2% 0 2%; float:left">
+ 
+ 
+     <font class="N4">Italům se po dvaadvaceti letech vrátil světový rekord s největší pizzou světa. Dosavadní rekord s největším slaným italským koláčem světa vytvořili v roce 1990 Jihoafričané. Tým italských kuchařů ale chtěl rekord v největším národním pokrmu vrátit do své vlasti a vytvořil pizzu margherita mající v průměru 39,6 metru. </font>  <br> <br> 
+    
+    <font class="N5">Rekord z Jihoafrické republiky měl 37 metrů v průměru. Na výrobu toho italského bylo potřeba devět tun mouky, čtyři tuny rajčatové omáčky, devět tun mozarelly, 250 kilogramů soli, 190 kilogramů olivového oleje a třiadvacet kilogramů balzamikového octa. Kuchaři museli pizzu upéct v 5 234 dávkách a trvalo jim to 48 hodin.</font>  <br> <br>
+   
+   <font class="N5">Pizza byla přitom pečena při různých teplotách v rozmezí 300 až 500 stupňů Celsia. Kuchaři jí dali jméno Ottavia po prvním římském císaři Octavianovi. </font></a> <br> <br> 
+   
+ <font class="N5">„Pojmenovali jsme tu pizzu Ottavia, aby symbolizovala naději, že se naše ekonomika a kultura oživí. Chtěli jsme, aby byla symbolem štěstí pro zotavení našich zemí,“ uvedl po vytvoření rekordu za pětici kuchařů její šéf Dovilio Nardi.</font>  <br> <br>    
+   
+   <br><br>
+     <div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="FOTO/nej.jpg" style="width:100% ">
+    </div>
+
+  <div class="mySlides fade">
+    <img src="FOTO/nej1.jpg" style="width:100% ">
+    </div>    
+
+  <div class="mySlides fade">
+    <img src="FOTO/nej2.jpg" style="width:100% ">
+    </div>
+    
+   
+    
+    
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  
+</div>
+<br><br>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script> 
+      </div>
+       
+ <div id="sloup4"> 
+  <a href="http://www.dama.cz/zabava/italove-upekli-nejvetsi-pizzu-na-svete-s-prumerem-ctyricet-metru-20886"><font style="N5">http://www.dama.cz/zabava/italove-upekli-nejvetsi-pizzu-na-svete-s-prumerem-ctyricet-metru-20886</font></a> 
+    
+  </div>
+  
+  
+ <div id="sloup">
+  <div class="parallax4"></div>
+  </div>
+  
+  
+   
+  <div id="zápatí"> 
+  <font color="white" family="Cambria">Created by: Nikola Dvořáková </font>
+    
+  </div>
+  
+  </div>
+</body>
+
+
+
+
+</html>

@@ -1,0 +1,593 @@
+/* CSS Document */
+  
+    #page{width:100%;width:100%; margin:0;padding:0;}
+     body {background:rgb(0,0,0); width:100%; margin:0;padding:0; }   
+   
+   #záhlaví{background: rgb(204,102,51);width:100%;float:left;}
+    #záhlaví2{background:none;float:left ;width:100%; padding:0; text-align: center;}
+     #sloup{background:rgb(255,255,255) ;float:left;width:100% }
+      #sloup2{background:rgb(255,255,255);float:left;width:100%;padding:5% }
+       #sloup3{background:#ffe2ae ;float:left;width:100%;padding:2%;text-align: center}
+       #sloup4{background:#ffe2ae ;float:left;width:100%;padding:2%;}
+       #sloup5{background:rgba(0, 0, 0, 0.5) ;float:left;width:100%;}
+       #sloup6{background:rgb(0,0,0) ;float:left;width:100%;}
+     #zápatí{background:#BC5235 ;float:left;padding:2%;width:100%;}
+     
+     @font-face {font-family:pizzapedie; src:url('Cash Currency.ttf') }
+      @font-face {font-family:písmo; src:url('CharisSIL-R.ttf') }
+      
+      
+
+    
+ 
+  .n1 {color:rgb(255,255,255) ;font-size:240%;font-family:pizzapedie }  
+    
+  .n2 {color:#BC5235;font-size:150%;font-family:písmo;text-align: center}
+  .n4 {color:rgb(0,0,0);font-size:120%;font-family:písmo;font-weight:bold}
+    
+   .n5 {color:rgb(0,0,0);font-size:120%;font-family:písmo}
+    
+   .w3-btn {width:50%;background-color: #ffe2ae;border: none;color: none;padding: 15px 35px;text-align: center;text-decoration: none;font-family: Cambria; color:#BC5235; display: inline-block;font-size: 150%}
+ 
+   .mySlides {display:none; }  
+   
+   /* Start http://www.cursors-4u.com */ body, a:hover {cursor: url("Pizza Normal Select.cur"), progress !important;} /* End http://www.cursors-4u.com */
+   
+      
+   .button {
+  float: center;
+    border: 1px;
+    border-color:rgb(255,255,255) ;
+  border-radius: 0;
+  background-color: rgb(255,255,255);
+  border: none;
+  color: #BC5235;
+  text-align: center;
+  font-size: 150%;
+  font-family: písmo;
+  padding: 20px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0;
+  }
+
+   .button1 {
+  float: center;
+    border: 1px;
+    border-color:#ffe2ae ;
+  border-radius: 0;
+  background-color: #ffe2ae;
+  border: none;
+  color: #BC5235;
+  text-align: center;
+  font-size: 150%;
+  font-family: písmo;
+  padding: 20px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0;
+  }
+  
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+ 
+ .button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button2 {
+  float: center;
+  border-style:solid;
+    border-width: 10%;
+    border-color:#BC5235;
+  border-radius: 0;
+  background-color:#ffe2ae;
+  color: #BC5235;
+  text-align: center;
+  font-size: 150%;
+  font-family: písmo;
+  padding: 20px;
+  width: auto;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0;
+  }
+  
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+  
+  
+
+.parallax {
+    /* The image used */
+    background-image: url('FOTO/bazalka.jpg');
+
+    /* Full height */
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax10 {
+    /* The image used */
+    background-image: url('FOTO/pizza.jpg');
+
+    /* Full height */
+    
+     
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax20 {
+    /* The image used */
+    background-image: url('FOTO/pizza background.jpg');
+
+    /* Full height */
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax30 {
+    /* The image used */
+    background-image: url('FOTO/pizza background.jpg');
+
+    /* Full height */
+   
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax40 {
+    /* The image used */
+    background-image: url('FOTO/1.jpg');
+
+    /* Full height */
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url('FOTO/pizza.jpg');
+
+    /* Full height */
+    height:35%  ;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url('FOTO/pizza background.jpg');
+
+    /* Full height */
+    height:35%  ;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url('FOTO/bazalka.jpg');
+
+    /* Full height */
+    height:35% ;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax4 {
+    /* The image used */
+    background-image: url('FOTO/1.jpg');
+
+    /* Full height */
+    height:35% ;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 780px) {
+    .panel-row-style {
+        background-attachment: scroll !important;
+        background-position: center center !important;
+    }
+}
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 70%;
+  position: relative;
+  margin: auto;
+   
+}
+
+.slideshow-container1 {
+  max-width: 95%;
+  position: relative;
+  margin: auto;
+  
+  
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  
+  color: #BC5235;
+  border-color:#BC5235;
+  border-width:1%;
+  border-style: solid;
+   
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 0 0 0;
+  background-color: rgb(255,255,255);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 0 0 0 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #ffe2ae;
+   border-color:#ffe2ae;
+  border-width:1%;
+  border-style: solid;
+  
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 120%;
+  padding: 8px 12px;
+    position: absolute;
+  top: 0;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: rgb(192,192,192);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: rgb(128,128,128);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+ button.accordion {
+    background-color:rgb(255,255,255) ;
+    color: #BC5235;
+    cursor: pointer;
+    padding: 2% 7%;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-weight:none;
+    outline: none;
+    font-size: 150%;
+    transition: 0.4s;
+    font-family: písmo;
+ 
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ffe2ae;
+    color: #BC5235;
+}
+
+button.accordion:after {
+    content: '\002B';
+    color: #ffe2ae;
+    font-weight: bold;
+    float: right;
+    margin-left: 5%;
+    }
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+div.panel {
+    padding: 0 7%;
+    background-color: white;
+    max-height: 0;
+    
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-size: 120%;
+    font-family: písmo;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.col-container {
+    display: table;
+    width: 100%;
+    }
+.col {
+    width:25%;
+    display: table-cell;
+    padding: 2%;
+    
+}
+
+.col1 {
+    width:32%;
+    display: table-cell;
+    padding: 0;
+}
+
+.col2 {
+    width:20%;
+    display: table-cell;
+    padding: 3%;
+    }
+    .col3 {
+    width:80%;
+    display: table-cell;
+    padding: 5%;
+    }
+    
+  
+
+@media only screen and (max-width: 600px) {
+    .col { 
+        display: block;
+        width: 100%;
+            }
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+     width: 100%; 
+    }
+ 
+
+li {
+    float:left;
+    font-family:písmo;
+     font-size:150% ;
+     width:25%;
+    text-align:center;
+    }
+
+li1 {
+    float:left;
+    font-size:250% ;
+    font-family:pizzapedie;
+    width:25%;
+    text-align:center;
+    
+   
+}
+
+li a { 
+    display: block;
+    color: white;
+    text-align: center;
+    
+    text-decoration: none;
+    padding:9%      
+    }
+
+li1 a {   
+    display: block;
+    color: white;
+    text-align: center;
+    
+    text-decoration: none;
+    padding:7%;
+       }
+
+li a:hover:not(.active) {
+    background-color:rgba(0, 0, 0, 0.4)  ;
+    border:none;
+}
+
+li1 a:hover:not(.active) {
+    background-color: rgba(0, 0, 0, 0.4);
+    border:none;
+}
+.active1 {
+    background-color:rgba(0, 0, 0, 0.3);
+}
+.active2 {
+    background-color:rgba(0, 0, 0, 0.3) ;
+}
+.active3 {
+    background-color:rgba(0, 0, 0, 0.3) ;
+}
+.active4 {
+    background-color:rgba(0, 0, 0, 0.3);
+}
+
+   #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  outline: none;
+  border-style:solid;
+   border-width: 5%;
+    border-color:#BC5235;
+  border-radius: 0;
+  background-color:#ffe2ae;
+  color: #BC5235;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 1%;
+  font-size:100%;
+  font-family:písmo;
+}
+
+#myBtn:hover {
+  background-color: #ffe2ae;
+}
+

@@ -1,0 +1,157 @@
+<!DOCTYPE html public "-//w3c//dtd html 4.01 transitional//en">
+
+<html>
+ 
+   
+  <head>
+  
+  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
+  
+
+   
+  <link rel="stylesheet" type="text/css" href="CSS.css">
+  <link rel="icon" type="image/png" href="FOTO/favicon.png" sizes="16x16"> 
+  
+  <title>Nej ...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <style>
+  
+   
+    </style>
+                                                               
+  </head>
+
+ 
+  <body>   
+   
+ <div id="page"> 
+ 
+<div id="záhlaví"> 
+ <div class="parallax40">     
+  <ul>                 
+  <li1><a class="active4" href="index.html">Pizzapedie</a></li1>
+  <li><a href="Historie.html">HISTORIE</a></li>
+  <li><a href="Recepty.html">RECEPTY</a></li>
+  <li><a href="Nej.html">NEJ ...</a></li>
+</ul> 
+</div>
+
+  </div> 
+ 
+ 
+  <div id="sloup3">
+ <font class="N2">NEJLEPŠÍ PIZZERIE NA SVĚTĚ </font> 
+  </div>
+  
+   <div id="sloup6">
+    
+   <br><br>
+     <div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="FOTO/best1.jpg" style="width:100% ">
+    <div class="text">10. Palermo, Itálie</div>
+    </div>
+
+  <div class="mySlides fade">
+    <img src="FOTO/best2.jpg" style="width:100% ">
+    <div class="text">9. Florencie, Itálie</div>
+    </div>    
+
+  <div class="mySlides fade">
+    <img src="FOTO/best3.jpg" style="width:100% ">
+     <div class="text">8. Edmonton, Kanada</div>
+    </div>
+    
+    <div class="mySlides fade">
+    <img src="FOTO/best4.jpg" style="width:100% ">
+    <div class="text"> 7. Benátky, Itálie   </div>
+    </div>
+
+  <div class="mySlides fade">
+    <img src="FOTO/best5.jpg" style="width:100% ">
+    <div class="text"> 6. New Haven,  Connecticut   </div>
+    </div>    
+
+  <div class="mySlides fade">
+    <img src="FOTO/best6.jpg" style="width:100% ">
+    <div class="text">  5. Neapol, Itálie  </div>
+    </div>
+    <div class="mySlides fade">
+    <img src="FOTO/best7.jpg" style="width:100% ">
+    <div class="text"> 4. Orlando, Florida   </div>
+    </div>
+
+  <div class="mySlides fade">
+    <img src="FOTO/best8.jpg" style="width:100% ">
+    <div class="text"> 3. Řím, Itálie  </div>
+    </div>    
+
+  <div class="mySlides fade">
+    <img src="FOTO/best9.jpg" style="width:100% ">
+    <div class="text"> 2. New York   </div>
+    </div>
+    <div class="mySlides fade">
+    <img src="FOTO/best10.jpg" style="width:100% ">
+    <div class="text"> 1. Chicago, Illinois   </div>
+    </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<br><br>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script> 
+      </div>
+       
+ <div id="sloup4"> 
+  <a href="http://www.cntraveler.com/galleries/2016-04-05/best-pizza-in-the-world-top-cities"><font style="N5">http://www.cntraveler.com/galleries/2016-04-05/best-pizza-in-the-world-top-cities</font></a> 
+    
+  </div>
+  
+  
+ <div id="sloup">
+  <div class="parallax4"></div>
+  </div>
+  
+  
+   
+  <div id="zápatí"> 
+  <font color="white" family="Cambria">Created by: Nikola Dvořáková </font>
+    
+  </div>
+  
+  </div>
+</body>
+
+
+
+
+</html>
