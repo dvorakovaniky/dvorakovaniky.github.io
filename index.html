@@ -1,22 +1,207 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="myStyle.css">
-<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-<title>ZSV</title>
-</head>
-<body>
-  <header>
-  Ãšvod do teorie prÃ¡va
-  </header>
- 
- <div class="div">
+<!DOCTYPE html public "-//w3c//dtd html 4.01 transitional//en">
 
- </div>
+<html>
  
- <h2>We can use the line-height property to set how tall we want the line containing our text to be, regardless of the height of the text. Line heights can take one of several values:
- </h2>
+   
+  <head>
+  
+  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
+  
+  
+  
+  <link rel="stylesheet" type="text/css" href="CSS.css">
+  <link rel="icon" type="image/png" href="FOTO/favicon.png" sizes="16x16"> 
+  
+  <title>Pizzapedie</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <style>
+  
+   
+    </style>
+                                                               
+  </head>
+
+ 
+  <body>   
+   
+ <div id="page"> 
+ 
+ <div id="záhlaví">  
+ <div class="parallax10">  
+   
+  <ul>
+  <li1><a class="active1" href="index.html">Pizzapedie</a></li1>
+  <li><a href="Historie.html">HISTORIE</a></li>
+  <li><a href="Recepty.html">RECEPTY</a></li>
+  <li><a href="Nej.html">NEJ ...</a></li>
+  
+</ul> 
+ </div> 
+
+  </div> 
+    
+   
+    
+    <div id="sloup3"> 
+         
+ <font class="N2">RECEPTY A ÈLÁNKY</font>
+   </div> 
+ 
+   <div id="sloup">
+   
+   <div class="slideshow-container1">
+  <div class="mySlides fade">
+   
+   
+       <div class="col-container">
+      
+  
+       <div class="col-container">
+  <div class="col" style="background:white">
+  <a href="klasická.html"> <img src="FOTO/klasika.jpg" style="width:100%"> 
+    <center><button class="button" style="vertical-align:middle"><span>Klasická pizza </span></button></a></center> 
+      </div>
+      
+  <div class="col" style="background:white">
+   <a href="grilovaná.html"> <img src="FOTO/grilovaná.jpg" style="width:100%">
+    <center><button class="button" style="vertical-align:middle"><span>Pizza z grilu </span></button></a></center>
+    </div>
+    <div class="col" style="background:white">
+    <a href="nejdelší.html"><img src="FOTO/nejdelší4.jpg" style="width:100%">
+    <center><button class="button" style="vertical-align:middle"><span>Nejdelší pizza  </span></button></a></center>
+    </div>
+   
+      <div class="col" style="background:white">
+  <a href="rajèatová omáèka.html"><img src="FOTO/omáèka.jpg" style="width:100%">
+    <center> <button class="button" style="vertical-align:middle"><span>Rajèatová omáèka  </span></button></a></center>
+      </div>
+      
+     </div>
+     
+     </div>
+     </div>
+     
+      <div class="mySlides fade">
+   
+   
+       <div class="col-container">
+      
+  
+       <div class="col-container">
+  <div class="col" style="background:white">
+ <a href="nej pizza.html"> <img src="FOTO/nej4.jpg" style="width:100%">
+    <center> <button class="button" style="vertical-align:middle"><span>Nejvìtší pizza  </span></button></a></center>
+      </div>
+       <div class="col" style="background:white ">
+  <a href="new york.html"><img src="FOTO/new york.jpg" style="width:100%">
+    <center> <button class="button" style="vertical-align:middle"><span>New York pizza </span></button></a></center>
+     </div>     
+  
+    <div class="col" style="background:white ">
+  <a href="vtípky.html"> <img src="FOTO/vtip.jpg" style="width:100%">
+    <center><button class="button" style="vertical-align:middle"><span>Pizza vtipy  </span></button></a></center>
+     </div>
+      <div class="col" style="background:white">
+  <a href="Sicilská pizza.html"><img src="FOTO/sicilská.jpg" style="width:100%">
+    <center> <button class="button" style="vertical-align:middle"><span>Sicilská pizza </span></button></a></center>
+      </div>
+      
+     </div>
+     
+     </div>
+     </div>
+     
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+     </div>
+     
+     
+
+
+<div id="sloup">
+  <div class="parallax1"></div>
+  </div>
+  
+  <div id="sloup3"> 
+  
+ <font class="N4">Historie pizzy:</font> <br><br>
+  
+   <font class="N5">Již v dobách Perské øíše, vojáci císaøe Daria Velikého, <br>
+  jež bojovali u Atticy, si byli nuceni zaopatøit potravu po nároèném dni tak, že pekli chlebové placky na svých štítech.<br>
+   Poté tyto placky potírali sýrem, olejem a datlemi...  <br>
+
+    </font>
+    <br> <center> <a href="Historie.html"><button class="button2" style="vertical-align:middle"><span>Èíst dál </span></button></a></center>
+      
+  
+  </div>
+  
+  
+
+
+  <div id="zápatí"> 
+  <font color="white" family="Cambria">Created by: Nikola Dvoøáková </font>
+    
+  </div>
+  
+  </div>
+ <button onclick="topFunction()" id="myBtn" title="Go to top">Zpìt nahoru</button> 
+  <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
 
 </body>
+
+
+
+
 </html>
